@@ -2,8 +2,7 @@
     "name": "mus-happy-birthday",
     "description": "",
     "dependencies": {
-        "core": "*",
-        "radio": "*"
+        "core": "*"
     },
     "files": [
         "main.blocks",

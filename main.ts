@@ -1,6 +1,3 @@
-function Happy_Birthday () {
-	
-}
 input.onButtonEvent(Button.A, input.buttonEventValue(ButtonEvent.Click), function () {
     music.playTone(196, music.beat(BeatFraction.Half))
     music.playTone(196, music.beat(BeatFraction.Half))
@@ -37,3 +34,6 @@ input.onButtonEvent(Button.A, input.buttonEventValue(ButtonEvent.Click), functio
 input.onGesture(Gesture.Shake, function () {
     basic.showString("Happy Birthday")
 })
+function Happy_Birthday () {
+	
+}
